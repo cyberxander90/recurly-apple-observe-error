@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm i && git add . && git commit -m \"update\" && git push && npm run build",
-    "build": "npx webpack --config webpack.config.js -p"
+    "build": "npx webpack --config webpack.config.js"
   },
   "dependencies": {
     "promise": "^8.1.0",
