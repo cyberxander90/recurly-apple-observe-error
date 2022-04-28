@@ -1,21 +1,14 @@
 {
   "name": "recurly-apple-observe-error",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
   "scripts": {
     "start": "npm i && git add . && git commit -m \"update\" && git push && npm run build",
     "build": "npx webpack --config webpack.config.js -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyberxander90/recurly-apple-observe-error.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyberxander90/recurly-apple-observe-error/issues"
-  },
-  "homepage": "https://github.com/cyberxander90/recurly-apple-observe-error#readme"
+  "dependencies": {
+    "promise": "^8.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
