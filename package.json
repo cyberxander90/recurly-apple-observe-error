@@ -2,7 +2,7 @@
   "name": "recurly-apple-observe-error",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm i && git add . && git commit -m \"update\" && git push && npm run build",
+    "start": "npm i && npm run build && git add . && git commit -m \"update\" && git push",
     "build": "npx webpack --config webpack.config.js"
   },
   "dependencies": {
